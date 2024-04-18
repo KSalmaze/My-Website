@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Tektur";
+    src: url("Assets/Fonts/Tektur/Tektur-VariableFont_wdth,wght.ttf");  }
+@font-face {
+    font-family: "Wavefont";
+    src: url("Assets/Fonts/Wavefont/Wavefont-VariableFont_ROND,YELA,wght.ttf");
+}
+
+body{
+    // background-color: #110015;
+    background-color: #f8ddf1;
+}
+
+.FaixaSuperior{
+     background-color: #71167c;
+    //background-color: #b48eab;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    top: 0;
+    left: 0;
+}
+
+.NomeDoSite{
+    font-family: "Tektur", sans-serif;
+    color: #ff9fec;
+    font-size: larger;
+}
+
+.Icones{
+    fill: #ff9fec;
+}
