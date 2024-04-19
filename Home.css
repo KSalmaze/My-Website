@@ -13,11 +13,11 @@ a{
 
 body{
     // background-color: #110015;
-    background-color: #f8ddf1;
+    background-color: #f1c8e9;
 }
 
 .FaixaSuperior{
-     background-color: #71167c;
+    background-color: #71167c;
     //background-color: #b48eab;
     height: 40px;
     width: 100%;
@@ -49,6 +49,15 @@ body{
 .OutrasPaginas{
     font-family: "Tektur", sans-serif;
     color: #ff9fec;
-    font-size: larger;
+    font-size: medium;
     margin-left: 10px;
+}
+
+.AscArt {
+    font-family: "Tektur", sans-serif;
+    margin-top: 40px;
+    color: #71167c;
+    width: 100%;
+    height: auto;
+    white-space: pre;
 }
