@@ -17,7 +17,7 @@ body{
 }
 
 .FaixaSuperior{
-    background-color: #71167c;
+    background-color: #450b4c;
     //background-color: #b48eab;
     height: 40px;
     width: 100%;
@@ -44,6 +44,8 @@ body{
 
 .Icones{
     fill: #ff9fec;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
 
 .OutrasPaginas{
@@ -51,15 +53,25 @@ body{
     font-family: "Tektur", sans-serif;
     color: #ff9fec;
     font-size: medium;
-    margin-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Elemento{
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .AscArt {
     font-family: "Unispace", sans-serif;
-    font-size: 3px;
+    font-size: 5.4px;
     margin-top: 40px;
     color: #71167c;
     width: 100%;
     height: auto;
     white-space: pre;
+}
+
+.TextoCentralizado{
+
 }
