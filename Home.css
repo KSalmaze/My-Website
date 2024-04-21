@@ -72,6 +72,48 @@ body{
     white-space: pre;
 }
 
-.TextoCentralizado{
+.BodyCentralizado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
+.Titulo{
+    color: #ff9fec;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.SubTitulo{
+    color: #ff9fec;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Topico{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Texto{
+    color: #ff9fec;
+    font-size: 16px;
+    max-width: 600px; /* Defina a largura máxima do texto */
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+.IconesNoTexto{
+    color: #ff9fec;
+    font-size: 16px;
+    max-width: 600px; /* Defina a largura máxima do texto */
+    text-align: center;
+    margin: 0 auto 20px;
 }
