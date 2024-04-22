@@ -1,5 +1,5 @@
 function exibirAscii() {
-    fetch('/AscArts/DarkMode.txt')
+    fetch('DarkMode.txt')
         .then(response => response.text())
         .then(ascii => {
             // Exibe o conteúdo na div
@@ -9,9 +9,4 @@ function exibirAscii() {
         .catch(error => {
             console.error('Erro ao carregar o arquivo de texto:', error);
         });
-}
-
-void MinhaFuncao()
-{
-
 }
