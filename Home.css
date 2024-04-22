@@ -83,14 +83,17 @@ body{
 }
 
 .Titulo{
+    font-family: "Tektur", sans-serif;
     color: #ff9fec;
     font-size: 24px;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .SubTitulo{
+    font-family: "Tektur", sans-serif;
     color: #ff9fec;
     font-size: 16px;
     font-weight: bold;
@@ -103,6 +106,7 @@ body{
 }
 
 .Texto{
+    font-family: "Tektur", sans-serif;
     color: #ff9fec;
     font-size: 16px;
     max-width: 600px; /* Defina a largura máxima do texto */
