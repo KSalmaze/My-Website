@@ -5,6 +5,11 @@
     font-family: "Wavefont";
     src: url("Assets/Fonts/Wavefont/Wavefont-VariableFont_ROND,YELA,wght.ttf");
 }
+@font-face {
+    font-family: "Monospaced";
+    src: url("Assets/Fonts/SourceCodePro/static/SourceCodePro-Bold.ttf");
+    /*src: url("Assets/Fonts/SourceCodePro/SourceCodePro-VariableFont_wght.ttf");*/
+}
 
 :root {
     --darkmode-darkpurple: #450b4c;
@@ -17,6 +22,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: var(--darkmode-pinkgrey);
 }
+
 .header {
     background-color: var(--darkmode-darkpurple);
     color: var(--darkmode-pink);
@@ -25,6 +31,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -37,6 +44,10 @@ body {
     height: 40px;
     margin-right: 10px;
 }
+.logo:hover {
+    border: #f1c8e9;
+}
+
 .nav-buttons {
     display: flex;
     gap: 1rem;
@@ -56,6 +67,7 @@ body {
     background-color: var(--darkmode-pinkgrey);
     border-radius: 15px;
 }
+
 .right-section {
     display: flex;
     padding: 0.5rem 1rem;
@@ -63,7 +75,7 @@ body {
 }
 
 .AscArtSalmaze{
-    font-family: "Unispace", sans-serif;
+    font-family: "Monospaced", sans-serif;
     font-size: 1rem;
     margin-top: 40px;
     color: #71167c;
