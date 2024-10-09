@@ -1,42 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
-    <link rel="stylesheet" type="text/css" href="Home.css">
-    <script src="Home.js"></script>
+    <link rel="stylesheet" type="text/css" href="HomePage.css">
+    <script src="HomePage.js"></script>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Salmaze.Zip</title>
 </head>
 <body>
-    <div class="FaixaSuperior">
-        <div class="IconeDoSite">
-            <a href="index.html">Salmaze.Zip</a>
-        </div>
-        <div class="NomeDoSite">
-            <a href="index.html">Salmaze.Zip</a>
-        </div>
-        <div class="OutrasPaginas">
-            <a class="Elemento" href="Projetos/Projetos.html">Projetos</a>
-            <a class="Elemento" href="Jogos/Jogos.html">Jogos</a>
-            <a class="Elemento" href="Sobre/Sobre.html">Sobre</a>
-        </div>
-        <div class="Icones">
-            <a href="https://www.github.com/KSalmaze">
-                <img src="Assets/Icons/github.svg"
-                     alt="Logo do Github">
-            </a>
-            <a href="https://salmaze.itch.io">
-                <img src="Assets/Icons/itchio.svg"
-                     width="25" height="25"
-                     alt="Logo do Itchio">
-            </a>
-            <a href="https://www.linkedin.com/in/pedro-salmaze">
-                <img src="Assets/Icons/linkedin.svg"
-                     alt="Logo do Linkedin">
-            </a>
-        </div>
-    </div>
-    <div class="AscArt" id="asc-art">
-        <script>exibirAscii()</script>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <!img src="placeholder-logo.png" alt="Logo">
+            <span>Salmaze.Zip</span>
+        </a>
+        <nav class="nav-buttons">
+            <button class="nav-button">Professional</button>
+            <button class="nav-button">Music</button>
+            <button class="nav-button">Gaming</button>
+            <button class="nav-button">Blog</button>
+            <button class="nav-button">About</button>
+        </nav>
+        <!--
+        <div class="right-section">
+            <button id="themeToggle" class="theme-toggle" aria-label="Alternar modo claro/escuro">
+                <img src="Assets/Icons/darkmode.svg"
+                     alt="Lua">
+            </button>
+            Idioma
+        </div> -->
+    </header>
+    <div class="AscArtSalmaze" id="asc-art">
+        <script>exibirAscii('AscArts/Salmaze.txt')</script>
     </div>
 </body>
 </html>
