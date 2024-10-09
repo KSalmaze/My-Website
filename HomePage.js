@@ -1,5 +1,9 @@
-function exibirAscii() {
-    fetch('AscArts/DarkModeMini.txt')
+function toggleTheme() {
+    console.log('Tema alternado');
+}
+
+function exibirAscii(pedro) {
+    fetch(pedro)
         .then(response => response.text())
         .then(ascii => {
             // Exibe o conteúdo na div
